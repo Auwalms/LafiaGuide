@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lafia Guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About</string>
+    <string name="title_activity_hospital_map">Hospitals</string>
+    <string name="title_activity_school_map">Map</string>
+    <string name="title_activity_markets">Map</string>
+    <string name="title_activity_security">Map</string>
+    <string name="title_activity_hotels_map">Map</string>
+    <string name="title_activity_motor__park__map">Map</string>
+    <string name="title_activity_attractions__maps">Map</string>
+    <string name="title_activity_banks__maps">Map</string>
+    <string name="title_activity_sports__centers__map">Map</string>
+    <string name="title_activity_matawwale">Map</string>
+    <string name="title_activity_about">Lafia</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>

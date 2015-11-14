@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width = "fill_parent"
+        android:layout_height = "220dp"
+        android:orientation = "vertical" >
+        <ViewFlipper
+            android:id = "@+id/view_flipper"
+            android:layout_width = "fill_parent"
+            android:layout_height = "190dp" >
+            <RelativeLayout
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent" >
+                <ImageView
+                    android:layout_width = "fill_parent"
+                    android:layout_height = "170dp"
+                    android:layout_gravity = "center"
+                    android:adjustViewBounds = "true"
+                    android:scaleType = "centerCrop"
+                    android:src = "@drawable/nasi"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true" />
+                <TextView
+                    style ="@style/ImageTitle"
+                    android:text = "Federal University of lafia" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent" >
+                <ImageView
+                    android:layout_width = "fill_parent"
+                    android:layout_height = "170dp"
+                    android:layout_gravity = "center"
+                    android:adjustViewBounds = "true"
+                    android:scaleType = "centerCrop"
+                    android:src = "@drawable/nasii" />
+                <TextView
+                    style ="@style/ImageTitle"
+                    android:text = "Lafia City Tall Gate" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent" >
+                <ImageView
+                    android:layout_width = "fill_parent"
+                    android:layout_height = "170dp"
+                    android:layout_gravity = "center"
+                    android:adjustViewBounds = "true"
+                    android:scaleType = "centerCrop"
+                    android:src = "@drawable/nasiii" />
+                <TextView
+                    style ="@style/ImageTitle"
+                    android:text = "E-Library" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent" >
+                <ImageView
+                    android:layout_width = "fill_parent"
+                    android:layout_height = "170dp"
+                    android:layout_gravity = "center"
+                    android:adjustViewBounds = "true"
+                    android:scaleType = "centerCrop"
+                    android:src = "@drawable/nasiiii" />
+                <TextView
+                    style ="@style/ImageTitle"
+                    android:text = "Emir of Lafia in a Meeting " />
+            </RelativeLayout>
+        </ViewFlipper >
+</RelativeLayout>
+</LinearLayout>

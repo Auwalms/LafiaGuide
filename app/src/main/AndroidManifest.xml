@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="state.lafia.com.lafiaguide" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Hospital_map"
+            android:label="@string/title_activity_hospital_map"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".School_map"
+            android:label="@string/title_activity_school_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Markets"
+            android:label="@string/title_activity_markets"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Security"
+            android:label="@string/title_activity_security"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Hotels_map"
+            android:label="@string/title_activity_hotels_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Motor_Park_Map"
+            android:label="@string/title_activity_motor__park__map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Attractions_Maps"
+            android:label="@string/title_activity_attractions__maps"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Banks_Maps"
+            android:label="@string/title_activity_banks__maps"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sports_Centers_Map"
+            android:label="@string/title_activity_sports__centers__map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AboutGDG"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+        </activity>
+    </application>
+
+</manifest>

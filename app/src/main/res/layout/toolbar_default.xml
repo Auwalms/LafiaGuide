@@ -1,0 +1,7 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:id="@+id/toolbar_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#2196F3"
+    android:minHeight="@dimen/abc_action_bar_default_height_material" />

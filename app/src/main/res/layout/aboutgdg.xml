@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:padding="5dp">
+
+    <ScrollView
+        android:id="@+id/card_scrollview"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="true"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#333333"
+                        android:text="About GDG Lafia\n"
+                        android:id="@+id/textView4"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#333333"
+                        android:text="About Lafia City guide app. Lafia City guide App is a smart phone city guide available for android now. Lafia City Guide uses your mobile data or WiFi (when available) to guide you through the city of Lafia. It is Suitable for business and tourist to find major spots in Lafia. No need to log in and much more !!!! We are always excited to hear from you! IF you have any feedbak, questions, or concerns, please feel free to email us."
+                        android:textSize="22dp"
+                        android:id="@+id/textView"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

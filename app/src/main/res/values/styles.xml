@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/myTextPrimaryColor</item>
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+        <item name="android:windowContentTransitions">true</item>
+  </style>
+
+    <style name="ImageTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+
+
+</resources>
